@@ -1,0 +1,11 @@
+
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·‰ê8ö“•½ø1
+G	java:S106"+Replace this use of System.out by a logger.(®½8”•½ø1
+~
+java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(ªÏ¬ƒ8‚”•½ø1
+
+java:S1989"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(®Ó‘ûÿÿÿÿÿ8…”•½ø1
+z
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ù¦ùşÿÿÿÿ8…”•½ø1
+u
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¸ï³Ñ8…”•½ø1

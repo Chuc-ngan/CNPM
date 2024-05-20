@@ -1,0 +1,20 @@
+
+e
+java:S1192""HDefine a constant instead of duplicating this literal "message" 3 times.(²£×8•óœù1
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·‰ê8Ú–ÇŒù1J$14925473-e900-476d-ac16-b87a6e476b5a
+¨
+java:S1989"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(³æ£õùÿÿÿÿ8å–ÇŒù1J$e525833a-04b3-45e6-8875-daac3891013a
+¤
+java:S1989#"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.( Üºú8é–ÇŒù1J$a2a5b43a-321c-4e7d-b429-3050f8e6e684
+~
+java:S19891"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.( Üºú8­óœù1
+t
+java:S1128"1Remove this unused import 'com.google.gson.Gson'.(–§8é–ÇŒù1J$8fd4610d-cdd0-4b28-8566-599b7beb4d6e
+
+java:S1128"GRemove this unused import 'org.example.project.RowMaper.CommentColumn'.(ÓÈ¿©úÿÿÿÿ8é–ÇŒù1J$18412599-669a-4bac-8185-02478e435875
+ 
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ù¦ùşÿÿÿÿ8é–ÇŒù1J$ce7be423-ed59-4aa8-bfaa-1ba1a842cd2d
+›
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ä×Ú³8é–ÇŒù1J$29463fa5-58aa-4234-a246-f6de5ecfd71d
+›
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¸ï³Ñ8§‰¿€Í1J$be8b9032-248f-4781-8f59-7d4b5570b9df
