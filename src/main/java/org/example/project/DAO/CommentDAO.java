@@ -45,6 +45,7 @@ public class CommentDAO extends AbtractDAO<Comment> implements ICommentDAO{
         return update(sql, comment.getCommentContent(), comment.getStoryId(), comment.getUserId());
     }
 
+    //        9.	Vào database và kiểm tra kiểm tra xem có tồn tại bình luận đó không.
     @Override
     public boolean isCommentExists(int storyId, int userId) {
         String sql = "SELECT * FROM comment WHERE story_id = ? AND user_id = ?";

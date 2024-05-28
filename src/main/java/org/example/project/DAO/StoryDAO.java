@@ -26,12 +26,6 @@ public class StoryDAO extends AbtractDAO<Story> implements IStoryDAO{
             story.setComments(comments);
         }
         return story;
-//        List<Story> stories = (List<Story>) querry(sql, new StoryMapper(), id);
-//        if (!stories.isEmpty()) {
-//            return stories.get(0); // Trả về phần tử đầu tiên từ danh sách
-//        } else {
-//            return null; // Hoặc trả về null nếu danh sách rỗng
-//        }
     }
 
     public static void main(String[] args) {
