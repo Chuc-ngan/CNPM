@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: PC
@@ -68,262 +69,288 @@
                         </div>
                     </div>
                     <div class="row">
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-1.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-2.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-3.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-4.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-5.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-6.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-7.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-8.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-9.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-10.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-11.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-12.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-13.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-14.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-15.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="comic-details.jsp">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-16.jpg">
-                                        <div class="ep">18 / 18</div>
-                                        <div class="update">Cập nhật: Tập 18</div>
-                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
-                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
-                                    </div>
-                                    <div class="product__item__text">
-                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>
-                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
+                        <c:choose>
+                            <c:when test="${not empty stories}">
+                                <c:forEach var="story" items="${stories}">
+                                    <a href="comic-details.jsp">
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="product__item">
+                                                <div class="product__item__pic set-bg" data-setbg="img/cover/cover-1.jpg">
+                                                    <div class="ep">18 / 18</div>
+                                                    <div class="update">Cập nhật: Tập 18</div>
+                                                    <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>
+                                                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                                </div>
+                                                <div class="product__item__text">
+                                                    <h6><i class="fa fa-clock-o"></i> ${story.publishDate}</h6>
+                                                    <h5 class="text-white"><i class="fa fa-address-book"></i> ${story.title}</h5>
+                                                    <h5><a href="comic-details.jsp">${story.author}</a></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </c:forEach>
+                            </c:when>
+                            <c:otherwise>
+                                <p>Không có bản ghi nào.</p>
+                            </c:otherwise>
+                        </c:choose>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-1.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-2.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-3.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-4.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-5.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-6.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-7.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-8.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-9.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-10.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-11.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-12.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-13.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-14.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-15.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
+                        <%--                        <a href="comic-details.jsp">--%>
+                        <%--                            <div class="col-lg-3 col-md-6 col-sm-6">--%>
+                        <%--                                <div class="product__item">--%>
+                        <%--                                    <div class="product__item__pic set-bg" data-setbg="img/cover/cover-16.jpg">--%>
+                        <%--                                        <div class="ep">18 / 18</div>--%>
+                        <%--                                        <div class="update">Cập nhật: Tập 18</div>--%>
+                        <%--                                        <div class="like"><i class="fa fa-thumbs-up"></i> 102</div>--%>
+                        <%--                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>--%>
+                        <%--                                    </div>--%>
+                        <%--                                    <div class="product__item__text">--%>
+                        <%--                                        <h6><i class="fa fa-clock-o"></i> 13/04/2024</h6>--%>
+                        <%--                                        <h5><a href="comic-details.jsp">The Seven Deadly Sins: Wrath of the Gods</a></h5>--%>
+                        <%--                                    </div>--%>
+                        <%--                                </div>--%>
+                        <%--                            </div>--%>
+                        <%--                        </a>--%>
                     </div>
                 </div>
                 <div class="product__pagination">
