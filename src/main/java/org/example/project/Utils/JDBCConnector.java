@@ -16,7 +16,7 @@ public class JDBCConnector {
         String port = "3306";
         String dbName = "storyonline";
         String username = "root";
-        String password = "";
+        String password = "123456"; // viet mat khau ýql vo day 1234
         String url = "jdbc:mysql://" + host + ":" + port + "/" + dbName+"?useUnicode=true&characterEncoding=utf8";
 
         try {
