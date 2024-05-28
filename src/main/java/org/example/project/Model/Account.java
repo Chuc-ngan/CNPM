@@ -1,7 +1,7 @@
 package org.example.project.Model;
 
 public class Account {
-    private String id;
+    private int id;
     private String email;
     private String password;
     private String role;
@@ -9,18 +9,18 @@ public class Account {
     public Account() {
     }
 
-    public Account(String id, String email, String password, String role) {
+    public Account(int id, String email, String password, String role) {
         this.id = id;
         this.email = email;
         this.password = password;
         this.role = role;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

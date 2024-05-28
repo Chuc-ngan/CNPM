@@ -22,5 +22,9 @@ public class LoginAPI extends HttpServlet {
             resp.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
             resp.getWriter().write("{\"error\": \"Đăng nhập thất bại\"}");
         }
+        else{
+            req.getSession().setAttribute("account", account);
+            resp.getWriter().write("{\"role\": \""+account.getRole()+"\"}");
+        }
     }
 }

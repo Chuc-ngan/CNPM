@@ -18,7 +18,7 @@ public class AccountService {
             ResultSet rs = statement.executeQuery();
             int countResult = 0;
             while(rs.next()){
-                account.setId(rs.getString("id"));
+                account.setId(rs.getInt("id"));
                 account.setEmail(rs.getString("email"));
                 account.setPassword(rs.getString("password"));
                 account.setRole(rs.getString("role"));
