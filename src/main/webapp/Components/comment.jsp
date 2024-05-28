@@ -37,6 +37,8 @@
     <div class="section-title">
         <h5>Bình luận</h5>
     </div>
+<%--    12.Hệ thống hiển thị danh sách sách bình luận--%>
+
     <c:forEach var="item" items="${comments}" varStatus="status">
     <div class="anime__review__item">
         <div class="anime__review__item__pic">
@@ -53,10 +55,17 @@
         <div class="section-title">
         <h5>Bình luận của bạn</h5>
         </div>
-        <form action="CommentController" method="post">
+
+
+
+            <form action="CommentController" method="post">
+                <%--            1.	Sau khi đọc xong, người dùng điền nội dung bình luận của mình vào mẫu bình luận.--%>
         <textarea name="comment" placeholder="Your Comment"></textarea>
+                <%--            2.	Người dùng ấn nút “Gửi” để đăng bình luận.--%>
         <button type="submit"><i class="fa fa-location-arrow"></i> Gửi</button>
-        </form>
+                    <%--            3.	Hệ thống nhận dữ liệu bình luận được gửi đến controller thông qua phương thức POST của biểu mẫu.--%>
+
+            </form>
         </div>
 
 
@@ -95,7 +104,7 @@
         window.scrollTo(0, document.getElementById('edit-comment-form').offsetTop);
     }
 
-
+    // 12 hiển thị thông báo trong phần bình luận của tập truyện.
     <% if (request.getAttribute("message") != null) { %>
     showPopup("<%= request.getAttribute("message") %>");
     <% } %>
