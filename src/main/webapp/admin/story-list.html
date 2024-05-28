@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.6/css/dataTables.dataTables.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <title>Trang sản phẩm</title>
+</head>
+
+<body>
+<table id="table" class="table table-striped" style="width:100%">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Tên truyện</th>
+        <th>Tác giả</th>
+        <th>Ngày tạo</th>
+        <th>Hành động</th>
+    </tr>
+    </thead>
+</table>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/2.0.6/js/dataTables.js"></script>
+<script>
+    new DataTable('#table', {
+        ajax: '/api/story-list',
+        columns: [
+            { data: 'id' },
+            { data: 'title' },
+            { data: 'author' },
+            { data: 'publishDate' },
+            { data: 'id',
+                render: function(data, type){
+                    return `<a href="/admin/chapter-list?storyId=${data}">Xem</a>`
+                }
+            }
+        ],
+        processing: true,
+        serverSide: true
+    });
+</script>
+</body>
+
+</html>

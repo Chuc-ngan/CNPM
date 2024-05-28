@@ -1,5 +1,6 @@
 package org.example.project.Model;
 
+import com.google.gson.JsonObject;
 import org.example.project.DAO.CommentDAO;
 
 import java.util.Date;
@@ -79,6 +80,15 @@ public class Story {
                 ", author='" + author + '\'' +
                 ", publishDate=" + publishDate +
                 '}';
+    }
+
+    public JsonObject toJsonObject(){
+        JsonObject result = new JsonObject();
+        result.addProperty("id", id);
+        result.addProperty("title", title);
+        result.addProperty("author", author);
+        result.addProperty("publishDate", publishDate.toString());
+        return result;
     }
 
     public void loadCommentsFromDatabase() {

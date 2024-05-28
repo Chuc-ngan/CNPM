@@ -1,11 +1,6 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: PC
-  Date: 5/17/2024
-  Time: 12:54 AM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="org.example.project.Model.Chapter" %>
+<%@ page import="java.util.List" %>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -31,7 +26,11 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Title</title>
 </head>
-
+<%
+    Chapter chapter = (Chapter) request.getAttribute("chapter");
+    int id = chapter.getId();
+    List<String> imageURLs = chapter.getImageURLs();
+%>
 <body>
 <!-- Page Preloder -->
 <div id="preloder">
@@ -72,63 +71,11 @@
                     <div class="section-title">
                         <h5>Sousou No Frieren tập 34</h5>
                     </div>
+                    <% for(String url : imageURLs){ %>
                     <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/1.jpg" style="width: 100%;">
+                        <img src="img/chapter/<%=id%>/<%=url%>" style="width: 100%;">
                     </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/2.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/3.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/4.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/5.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/6.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/7.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/8.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/9.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/10.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/11.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/12.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/13.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/14.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/15.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/16.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/17.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/18.jpg" style="width: 100%;">
-                    </div>
-                    <div style="width: 60%; padding: 10px; margin: auto;">
-                        <img src="img/chapter/19.jpg" style="width: 100%;">
-                    </div>
+                    <%}%>
                 </div>
             </div>
         </div>
