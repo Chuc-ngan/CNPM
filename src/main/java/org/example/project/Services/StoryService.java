@@ -32,4 +32,8 @@ public class StoryService implements IStoryService{
     public Story findStoryById(int id) {
         return storyDAO.findStoryById(id);
     }
+
+    public int totalRecord() {
+        return findAll().size();
+    }
 }
